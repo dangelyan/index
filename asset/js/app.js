@@ -53,6 +53,7 @@ document.querySelector('#openCamera').addEventListener('click', function(){
 }, false);
 
 document.querySelector('#start').addEventListener('click', () => {
+    alert('开始识别！');
     webAR.startRecognize((msg) => {
         alert('识别成功');
 
