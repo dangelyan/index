@@ -1,4 +1,4 @@
-const webAR = new WebAR(1000, 'recognize.php');
+const webAR = new WebAR(1000, 'https://rc.huanwuvr.com/index.php?r=recognize');
 
 const threeHelper = new ThreeHelper();
 
